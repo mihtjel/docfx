@@ -43,8 +43,12 @@ async function renderMermaid() {
 
   const { default: mermaid } = await import('mermaid')
   const theme = getTheme() === 'dark' ? 'dark' : 'default'
-  mermaid.initialize(Object.assign({ startOnLoad: false, deterministicIds: true, theme }, window.docfx.mermaid))
-  mermaid.run({ querySelector: 'pre code.lang-mermaid' })
+  const nodes = document.querySelectorAll<HTMLElement>('pre code.lang-mermaid')
+  console.log(nodes)
+  nodes.forEach(n => n.removeAttribute('data-processed'))
+  mermaid.initialize(Object.assign({ startOnLoad: false, theme }, window.docfx.mermaid))
+  mermaid.run({ nodes })
+  console.log(',')
 }
 
 /**
@@ -373,6 +377,7 @@ function renderTabs() {
         updateVisibilityAndSelection(group1, state)
       }
       updateTabsQueryStringParam(state)
+      handleTabChange()
     }
     const top = info.anchor.getBoundingClientRect().top
     if (top !== originalTop && event instanceof MouseEvent) {
@@ -428,5 +433,9 @@ function renderTabs() {
     document.querySelectorAll('div.tabGroup>ul>li').forEach(e => e.classList.add('nav-item'))
     document.querySelectorAll('div.tabGroup>ul>li>a').forEach(e => e.classList.add('nav-link'))
     document.querySelectorAll('div.tabGroup>section').forEach(e => e.classList.add('card'))
+  }
+
+  function handleTabChange() {
+    renderMermaid()
   }
 }
