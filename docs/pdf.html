@@ -92,14 +92,16 @@
 <h2 id="pdf-config">PDF Config</h2>
 <p>Add a <code>pdf</code> section in <code>docfx.json</code>:</p>
 <pre><code class="lang-json">{
-  &quot;pdf&quot;: {
-    &quot;content&quot;: [{
-      &quot;files&quot;: [ &quot;**/*.{md,yml}&quot; ]
-    }],
-    &quot;wkhtmltopdf&quot;: {
-      &quot;additionalArguments&quot;: &quot;--enable-local-file-access&quot;
-    },
-  }
+	&quot;pdf&quot;: {
+		&quot;content&quot;: [
+			{
+				&quot;files&quot;: [ &quot;**/*.{md,yml}&quot; ]
+			}
+		],
+		&quot;wkhtmltopdf&quot;: {
+			&quot;additionalArguments&quot;: &quot;--enable-local-file-access&quot;
+		}
+	}
 }
 </code></pre>
 <p>Most of the config options are the same as <code>build</code> config. The <code>wkhtmltopdf</code> config contains additional details to control <code>wkhtmltopdf</code> behavior:</p>
