@@ -155,7 +155,7 @@ description: a description
 <pre><code class="lang-json">{
   &quot;build&quot;: {
     &quot;sitemap&quot;: {
-      &quot;baseUrl&quot;: &quot;https://dotnet.github.iodocfx&quot;,
+      &quot;baseUrl&quot;: &quot;https://dotnet.github.io/docfx&quot;,
       &quot;priority&quot;: 0.1,
       &quot;changefreq&quot;: &quot;monthly&quot;
     }
@@ -164,10 +164,10 @@ description: a description
 </code></pre>
 <p>Where:</p>
 <ul>
-<li><code>baseUrl</code> is the base URL for the website. It should start with <code>http</code> or <code>https</code> and end with a trailing slash. For example, <code>https://dotnet.github.io/docfx/</code>.</li>
+<li><code>baseUrl</code> is the base URL for the website. It should start with <code>http</code> or <code>https</code>. For example, <code>https://dotnet.github.io/docfx</code>.</li>
 <li><a href="https://www.sitemaps.org/protocol.html#lastmod"><code>lastmod</code></a> is the date of last modification of the page. If not specified, docfx sets the date to the build time.</li>
 <li><a href="https://www.sitemaps.org/protocol.html#changefreqdef"><code>changefreq</code></a> determines how frequently the page is likely to change. Valid values are <code>always</code>, <code>hourly</code>, <code>daily</code>, <code>weekly</code>, <code>monthly</code>, <code>yearly</code>, <code>never</code>. Default to <code>daily</code>.</li>
-<li><a href="https://www.sitemaps.org/protocol.html#priority"><code>priority</code></a> is the priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0.</li>
+<li><a href="https://www.sitemaps.org/protocol.html#priority"><code>priority</code></a> is the priority of this URL relative to other URLs on your site. Valid values range from 0.0 to 1.0. Default to <code>0.5</code></li>
 <li><code>fileOptions</code> is a per file config of the above options. The key is the file glob pattern and value is the sitemap options.</li>
 </ul>
 </article>

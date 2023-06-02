@@ -1,4 +1,9 @@
 {
+  "sitemap": {
+    "baseUrl": "https://dotnet.github.io/docfx/",
+    "changefreq": "daily",
+    "priority": 0.5
+  },
   "homepages": [],
   "source_base_path": "/home/runner/work/docfx/docfx/docs",
   "xrefmap": "xrefmap.yml",
