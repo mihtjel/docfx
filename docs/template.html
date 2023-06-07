@@ -87,10 +87,10 @@
 
 <p>Template defines the appearance of the website.</p>
 <p>Docfx ships several built-in templates. We recommend using the modern template that matches the look and feel of this site. It supports dark mode, more features, rich customization options and.</p>
-<p>Use the modern template by setting the <code>templates</code> property to <code>[&quot;default&quot;, &quot;modern&quot;]</code>:</p>
+<p>Use the modern template by setting the <code>template</code> property to <code>[&quot;default&quot;, &quot;modern&quot;]</code>:</p>
 <pre><code class="lang-json">{
   &quot;build&quot;: {
-    &quot;templates&quot;: [
+    &quot;template&quot;: [
       &quot;default&quot;,
       &quot;modern&quot;
     ]
@@ -319,7 +319,7 @@
 <p>Docfx produces the right git links for major CI pipelines including <a href="https://github.com/features/actions">GitHub</a>, <a href="https://about.gitlab.com/gitlab-ci/">GitLab</a>, <a href="https://azure.microsoft.com/en-us/services/devops/pipelines/">Azure Pipelines</a>, <a href="https://www.appveyor.com/">AppVeyor</a>, <a href="https://www.jetbrains.com/teamcity/">TeamCity</a>, <a href="https://jenkins.io/">Jenkins</a>. <code>_gitContribute</code> and <code>_gitUrlPattern</code> are optional on these platforms.</p>
 </div>
 <h2 id="custom-template">Custom Template</h2>
-<p>To build your own template, create a new folder and add it to <code>templates</code> config in <code>docfx.json</code>:</p>
+<p>To build your own template, create a new folder and add it to <code>template</code> config in <code>docfx.json</code>:</p>
 <div class="tabGroup" id="tabgroup_bHGHmlrG6S-1">
 <ul role="tablist">
 <li role="presentation">
@@ -333,7 +333,7 @@
 
 <pre><code class="lang-json">{
   &quot;build&quot;: {
-    &quot;templates&quot;: [
+    &quot;template&quot;: [
       &quot;default&quot;,
       &quot;modern&quot;,
       &quot;my-template&quot; // &lt;-- Path to custom template
