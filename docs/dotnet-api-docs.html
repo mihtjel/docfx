@@ -105,10 +105,15 @@
 </code></pre>
 <p>Docfx generates .NET API docs in 2 stages:</p>
 <ol>
-<li><p>The <em>metadata</em> stage uses the <code>metadata</code> config to produce <a href="dotnet-yaml-format.html">.NET API YAML files</a> at the <code>metadata.dest</code> directory.</p>
-</li>
-<li><p>The <em>build</em> stage transforms the generated .NET API YAML files specified in <code>build.content</code> config into HTML files.</p>
-</li>
+<li>The <em>metadata</em> stage uses the <code>metadata</code> config to produce <a href="dotnet-yaml-format.html">.NET API YAML files</a> at the <code>metadata.dest</code> directory.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The <a href="../api/Microsoft.DocAsCode.Docset.html"><code>Docset.Build</code></a> method does not run the <em>metadata</em> stage,
+invoke the <a href="../api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html"><code>DotnetApiCatalog.GenerateManagedReferenceYamlFiles</code></a> method to run the <em>metadata</em> stage before the <em>build</em> stage.</p>
+</div>
+<ol start="2">
+<li>The <em>build</em> stage transforms the generated .NET API YAML files specified in <code>build.content</code> config into HTML files.</li>
 </ol>
 <p>These 2 stages can run independently with the <code>docfx metadata</code> command and the <code>docfx build</code> command. The <code>docfx</code> root command runs both <code>metadata</code> and <code>build</code>.</p>
 <div class="NOTE">
