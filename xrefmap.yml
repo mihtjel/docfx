@@ -1,12 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: docfx_cli_reference
-  name: docfx CLI reference
-  href: reference/docfx-cli-reference.html
-- uid: docfx_json_refence
-  name: docfx.json reference
-  href: reference/docfx-json-reference.html
 - uid: Microsoft.DocAsCode
   name: Microsoft.DocAsCode
   href: api/Microsoft.DocAsCode.html
@@ -620,45 +614,6 @@ references:
   isSpec: "True"
   fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NameForVB
   nameWithType: ItemViewModel.NameForVB
-- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
-  name: Names
-  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_Names
-  commentId: P:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
-  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
-  nameWithType: ItemViewModel.Names
-- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names*
-  name: Names
-  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_Names_
-  commentId: Overload:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
-  isSpec: "True"
-  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
-  nameWithType: ItemViewModel.Names
-- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
-  name: NamespaceName
-  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamespaceName
-  commentId: P:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
-  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
-  nameWithType: ItemViewModel.NamespaceName
-- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName*
-  name: NamespaceName
-  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamespaceName_
-  commentId: Overload:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
-  isSpec: "True"
-  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
-  nameWithType: ItemViewModel.NamespaceName
-- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
-  name: NamesWithType
-  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamesWithType
-  commentId: P:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
-  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
-  nameWithType: ItemViewModel.NamesWithType
-- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType*
-  name: NamesWithType
-  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamesWithType_
-  commentId: Overload:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
-  isSpec: "True"
-  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
-  nameWithType: ItemViewModel.NamesWithType
 - uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NameWithType
   name: NameWithType
   href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NameWithType
@@ -698,6 +653,45 @@ references:
   isSpec: "True"
   fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NameWithTypeForVB
   nameWithType: ItemViewModel.NameWithTypeForVB
+- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
+  name: Names
+  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_Names
+  commentId: P:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
+  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
+  nameWithType: ItemViewModel.Names
+- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names*
+  name: Names
+  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_Names_
+  commentId: Overload:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
+  isSpec: "True"
+  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Names
+  nameWithType: ItemViewModel.Names
+- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+  name: NamesWithType
+  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamesWithType
+  commentId: P:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+  nameWithType: ItemViewModel.NamesWithType
+- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType*
+  name: NamesWithType
+  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamesWithType_
+  commentId: Overload:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+  isSpec: "True"
+  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamesWithType
+  nameWithType: ItemViewModel.NamesWithType
+- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+  name: NamespaceName
+  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamespaceName
+  commentId: P:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+  nameWithType: ItemViewModel.NamespaceName
+- uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName*
+  name: NamespaceName
+  href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_NamespaceName_
+  commentId: Overload:Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+  isSpec: "True"
+  fullName: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.NamespaceName
+  nameWithType: ItemViewModel.NamespaceName
 - uid: Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.Overload
   name: Overload
   href: api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html#Microsoft_DocAsCode_DataContracts_ManagedReference_ItemViewModel_Overload
@@ -1300,15 +1294,6 @@ references:
   commentId: T:Microsoft.DocAsCode.Docset
   fullName: Microsoft.DocAsCode.Docset
   nameWithType: Docset
-- uid: Microsoft.DocAsCode.Docset.Build(System.String,Microsoft.DocAsCode.BuildOptions)
-  name: Build(string, BuildOptions)
-  href: api/Microsoft.DocAsCode.Docset.html#Microsoft_DocAsCode_Docset_Build_System_String_Microsoft_DocAsCode_BuildOptions_
-  commentId: M:Microsoft.DocAsCode.Docset.Build(System.String,Microsoft.DocAsCode.BuildOptions)
-  name.vb: Build(String, BuildOptions)
-  fullName: Microsoft.DocAsCode.Docset.Build(string, Microsoft.DocAsCode.BuildOptions)
-  fullName.vb: Microsoft.DocAsCode.Docset.Build(String, Microsoft.DocAsCode.BuildOptions)
-  nameWithType: Docset.Build(string, BuildOptions)
-  nameWithType.vb: Docset.Build(String, BuildOptions)
 - uid: Microsoft.DocAsCode.Docset.Build(System.String)
   name: Build(string)
   href: api/Microsoft.DocAsCode.Docset.html#Microsoft_DocAsCode_Docset_Build_System_String_
@@ -1318,6 +1303,15 @@ references:
   fullName.vb: Microsoft.DocAsCode.Docset.Build(String)
   nameWithType: Docset.Build(string)
   nameWithType.vb: Docset.Build(String)
+- uid: Microsoft.DocAsCode.Docset.Build(System.String,Microsoft.DocAsCode.BuildOptions)
+  name: Build(string, BuildOptions)
+  href: api/Microsoft.DocAsCode.Docset.html#Microsoft_DocAsCode_Docset_Build_System_String_Microsoft_DocAsCode_BuildOptions_
+  commentId: M:Microsoft.DocAsCode.Docset.Build(System.String,Microsoft.DocAsCode.BuildOptions)
+  name.vb: Build(String, BuildOptions)
+  fullName: Microsoft.DocAsCode.Docset.Build(string, Microsoft.DocAsCode.BuildOptions)
+  fullName.vb: Microsoft.DocAsCode.Docset.Build(String, Microsoft.DocAsCode.BuildOptions)
+  nameWithType: Docset.Build(string, BuildOptions)
+  nameWithType.vb: Docset.Build(String, BuildOptions)
 - uid: Microsoft.DocAsCode.Docset.Build*
   name: Build
   href: api/Microsoft.DocAsCode.Docset.html#Microsoft_DocAsCode_Docset_Build_
@@ -1337,15 +1331,6 @@ references:
   commentId: T:Microsoft.DocAsCode.Dotnet.DotnetApiCatalog
   fullName: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog
   nameWithType: DotnetApiCatalog
-- uid: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String,Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
-  name: GenerateManagedReferenceYamlFiles(string, DotnetApiOptions)
-  href: api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html#Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_System_String_Microsoft_DocAsCode_Dotnet_DotnetApiOptions_
-  commentId: M:Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String,Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
-  name.vb: GenerateManagedReferenceYamlFiles(String, DotnetApiOptions)
-  fullName: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(string, Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
-  fullName.vb: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(String, Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
-  nameWithType: DotnetApiCatalog.GenerateManagedReferenceYamlFiles(string, DotnetApiOptions)
-  nameWithType.vb: DotnetApiCatalog.GenerateManagedReferenceYamlFiles(String, DotnetApiOptions)
 - uid: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String)
   name: GenerateManagedReferenceYamlFiles(string)
   href: api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html#Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_System_String_
@@ -1355,6 +1340,15 @@ references:
   fullName.vb: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(String)
   nameWithType: DotnetApiCatalog.GenerateManagedReferenceYamlFiles(string)
   nameWithType.vb: DotnetApiCatalog.GenerateManagedReferenceYamlFiles(String)
+- uid: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String,Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
+  name: GenerateManagedReferenceYamlFiles(string, DotnetApiOptions)
+  href: api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html#Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_System_String_Microsoft_DocAsCode_Dotnet_DotnetApiOptions_
+  commentId: M:Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String,Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
+  name.vb: GenerateManagedReferenceYamlFiles(String, DotnetApiOptions)
+  fullName: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(string, Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
+  fullName.vb: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(String, Microsoft.DocAsCode.Dotnet.DotnetApiOptions)
+  nameWithType: DotnetApiCatalog.GenerateManagedReferenceYamlFiles(string, DotnetApiOptions)
+  nameWithType.vb: DotnetApiCatalog.GenerateManagedReferenceYamlFiles(String, DotnetApiOptions)
 - uid: Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles*
   name: GenerateManagedReferenceYamlFiles
   href: api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html#Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_
@@ -1436,3 +1430,9 @@ references:
   commentId: F:Microsoft.DocAsCode.MemberLayout.SeparatePages
   fullName: Microsoft.DocAsCode.MemberLayout.SeparatePages
   nameWithType: MemberLayout.SeparatePages
+- uid: docfx_cli_reference
+  name: docfx CLI reference
+  href: reference/docfx-cli-reference.html
+- uid: docfx_json_refence
+  name: docfx.json reference
+  href: reference/docfx-json-reference.html
