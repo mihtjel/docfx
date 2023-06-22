@@ -106,9 +106,9 @@ b. Organize and render available conceptual files which can be easily cross-refe
 <p>Run <code>docfx --version</code> to get the version of the docfx.</p>
 <p>Run <code>docfx --help</code> or <code>docfx -h</code> to get a list of all available commands and options. Run <code>docfx &lt;command&gt; --help</code> or <code>docfx &lt;command&gt; -h</code> to get help on a specific command.</p>
 <h2 id="commands">Commands</h2>
-<h3 id="1-init-command-docfx-init">1. Init command <code>docfx init</code></h3>
+<h3 id="init-command-docfx-init">Init command <code>docfx init</code></h3>
 <p><code>docfx init</code> helps generate an <code>docfx.json</code> file.</p>
-<h3 id="3-extract-language-metadata-command-docfx-metadata">3. Extract language metadata command <code>docfx metadata</code></h3>
+<h3 id="extract-language-metadata-command-docfx-metadata">Extract language metadata command <code>docfx metadata</code></h3>
 <p><strong>Syntax</strong></p>
 <pre><code>docfx metadata [&lt;projects&gt;] [--property &lt;n1&gt;=&lt;v1&gt;;&lt;n2&gt;=&lt;v2&gt;]
 </code></pre>
@@ -150,7 +150,7 @@ Supported file extensions include <code>.csproj</code>, <code>.vbproj</code>, <c
 </ul>
 <p>An optional set of MSBuild properties used when interpreting project files. These are the same properties that are passed to msbuild via the /property:<n1>=<v1>;<n2>=<v2> command line argument.
 For example: <code>docfx metadata --property TargetFramework=net48</code> generates metadata files with .NET framework 4.8. This command can be used when the project supports multiple <code>TargetFrameworks</code>.</v2></n2></v1></n1></p>
-<h3 id="4-generate-documentation-command-docfx-build">4. Generate documentation command <code>docfx build</code></h3>
+<h3 id="generate-documentation-command-docfx-build">Generate documentation command <code>docfx build</code></h3>
 <p><strong>Syntax</strong></p>
 <pre><code>docfx build [-o:&lt;output_path&gt;] [-t:&lt;template folder&gt;]
 </code></pre>
@@ -221,7 +221,7 @@ And if <code>href</code> is referencing to a <strong>folder</strong>, it must en
       |-- favicon.ico
       |-- logo.ico
 </code></pre>
-<h3 id="5-generate-pdf-documentation-command-docfx-pdf">5. Generate PDF documentation command <code>docfx pdf</code></h3>
+<h3 id="generate-pdf-documentation-command-docfx-pdf">Generate PDF documentation command <code>docfx pdf</code></h3>
 <p><strong>Syntax</strong></p>
 <pre><code>docfx pdf [&lt;config_file_path&gt;] [-o:&lt;output_path&gt;]
 </code></pre>
