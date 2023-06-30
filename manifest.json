@@ -699,7 +699,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "spec/docfx_flavored_markdown.md",
       "output": {
         ".html": {
@@ -749,7 +749,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "spec/metadata_dotnet_spec.md",
       "output": {
         ".html": {
@@ -779,7 +779,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "spec/triple_slash_comments_spec.md",
       "output": {
         ".html": {
@@ -812,7 +812,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/docfx_getting_started.md",
       "output": {
         ".html": {
@@ -852,7 +852,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/howto_filter_out_unwanted_apis_attributes.md",
       "output": {
         ".html": {
@@ -902,7 +902,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/intro_rest_api_documentation.md",
       "output": {
         ".html": {
@@ -922,7 +922,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/intro_toc.md",
       "output": {
         ".html": {
@@ -942,7 +942,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/walkthrough/advanced_walkthrough.md",
       "output": {
         ".html": {
@@ -952,7 +952,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/walkthrough/walkthrough_create_a_docfx_project.md",
       "output": {
         ".html": {
@@ -962,7 +962,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/walkthrough/walkthrough_create_a_docfx_project_2.md",
       "output": {
         ".html": {
@@ -972,7 +972,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/walkthrough/walkthrough_generate_pdf.md",
       "output": {
         ".html": {
@@ -982,7 +982,7 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
+      "type": "Redirection",
       "source_relative_path": "tutorial/walkthrough/walkthrough_overview.md",
       "output": {
         ".html": {
