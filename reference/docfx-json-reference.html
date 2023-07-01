@@ -116,8 +116,32 @@
 <td>Defines the filter configuration file, please go to <a href="../tutorial/howto_filter_out_unwanted_apis_attributes.html">How to filter out unwanted apis attributes</a> for more details.</td>
 </tr>
 <tr>
+<td>disableDefaultFilter</td>
+<td>Disables the default filter configuration file.</td>
+</tr>
+<tr>
+<td>disableGitFeatures</td>
+<td>Disables generation of view source links.</td>
+</tr>
+<tr>
 <td>properties</td>
 <td>Defines an optional set of MSBuild properties used when interpreting project files. These are the same properties that are passed to msbuild via the <code>/property:name=value</code> command line argument.</td>
+</tr>
+<tr>
+<td>noRestore</td>
+<td>Do not run <code>dotnet restore</code> before building the projects.</td>
+</tr>
+<tr>
+<td>namespaceLayout</td>
+<td>Defines how namespaces in TOC are organized. When set to <em>flattened</em>, renders namespaces as a single flat list. When set to <em>nested</em>, renders namespaces in a nested tree form. The default is <em>flattened</em>.</td>
+</tr>
+<tr>
+<td>memberLayout</td>
+<td>Defines how member pages are organized. When set to <em>samePage</em>, places members in the same page as their containing type. When set to <em>separatePages</em>, places members in separate pages. The default is <em>samePage</em>.</td>
+</tr>
+<tr>
+<td>allowCompilationErrors</td>
+<td>When enabled, continues documentation generation in case of compilation errors.</td>
 </tr>
 </tbody>
 </table>
