@@ -106,7 +106,7 @@
 <ol>
 <li><p>Create a new C# class library targeting <code>net6.0</code> or later.</p>
 </li>
-<li><p>Add NuGet package reference to <code>System.Composition</code>, <code>Microsoft.DocAsCode.Plugins</code> and <code>Microsoft.DocAsCode.Common</code>.</p>
+<li><p>Add NuGet package reference to <code>System.Composition</code>, <code>Docfx.Plugins</code> and <code>Docfx.Common</code>.</p>
 </li>
 <li><p>Add a project for converting rtf to html:
 Clone project <a href="https://github.com/mmanela/MarkupConverter">MarkupConverter</a>, and reference it.</p>
@@ -165,7 +165,7 @@ When two or more processors compete for the same file, DocFX will give it to the
     };
 }
 </code></pre>
-<p>We use <code>Dictionary&lt;string, object&gt;</code> as the data model, similar to how <a href="https://github.com/dotnet/docfx/blob/dev/src/Microsoft.DocAsCode.Build.ConceptualDocuments/ConceptualDocumentProcessor.cs">ConceptualDocumentProcessor</a>
+<p>We use <code>Dictionary&lt;string, object&gt;</code> as the data model, similar to how <a href="https://github.com/dotnet/docfx/blob/dev/src/Docfx.Build.ConceptualDocuments/ConceptualDocumentProcessor.cs">ConceptualDocumentProcessor</a>
 stores the content of markdown files.</p>
 </li>
 <li><p>Implement <code>Save</code> method as follows:</p>

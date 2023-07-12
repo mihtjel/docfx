@@ -97,9 +97,9 @@ In this topic, we will show how to add a customized post-processor.</p>
 <li><a href="https://www.nuget.org/packages/Microsoft.Composition/1.0.31"><code>Microsoft.Composition</code></a> with version 1.0.31</li>
 </ul>
 </li>
-<li>Add <code>Microsoft.DocAsCode.Plugins</code>
+<li>Add <code>Docfx.Plugins</code>
 If you are building DocFX from source code, add this reference to the project,
-otherwise add the nuget package <code>Microsoft.DocAsCode.Plugins</code> with the same version as DocFX.</li>
+otherwise add the nuget package <code>Docfx.Plugins</code> with the same version as DocFX.</li>
 </ul>
 <h2 id="step1-create-a-new-class-myprocessorcs-with-the-following-code">Step1: Create a new class (MyProcessor.cs) with the following code:</h2>
 <pre><code class="lang-csharp">[Export(nameof(MyProcessor), typeof(IPostProcessor))]

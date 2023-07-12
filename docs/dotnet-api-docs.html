@@ -109,8 +109,8 @@
 </ol>
 <div class="NOTE">
 <h5>Note</h5>
-<p>The <a href="../api/Microsoft.DocAsCode.Docset.html"><code>Docset.Build</code></a> method does not run the <em>metadata</em> stage,
-invoke the <a href="../api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html"><code>DotnetApiCatalog.GenerateManagedReferenceYamlFiles</code></a> method to run the <em>metadata</em> stage before the <em>build</em> stage.</p>
+<p>The <a href="../api/Docfx.Docset.html"><code>Docset.Build</code></a> method does not run the <em>metadata</em> stage,
+invoke the <a href="../api/Docfx.Dotnet.DotnetApiCatalog.html"><code>DotnetApiCatalog.GenerateManagedReferenceYamlFiles</code></a> method to run the <em>metadata</em> stage before the <em>build</em> stage.</p>
 </div>
 <ol start="2">
 <li>The <em>build</em> stage transforms the generated .NET API YAML files specified in <code>build.content</code> config into HTML files.</li>
@@ -209,7 +209,7 @@ invoke the <a href="../api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html"><co
 }
 </code></pre>
 <h2 id="filter-apis">Filter APIs</h2>
-<p>Docfx shows only the public accessible types and methods callable from another assembly. It also has a set of <a href="https://github.com/dotnet/docfx/blob/main/src/Microsoft.DocAsCode.Metadata.ManagedReference.Common/Filters/defaultfilterconfig.yml">default filtering rules</a> that excludes common API patterns based on attributes such as <code>[EditorBrowsableAttribute]</code>.</p>
+<p>Docfx shows only the public accessible types and methods callable from another assembly. It also has a set of <a href="https://github.com/dotnet/docfx/blob/main/src/Docfx.Metadata.ManagedReference.Common/Filters/defaultfilterconfig.yml">default filtering rules</a> that excludes common API patterns based on attributes such as <code>[EditorBrowsableAttribute]</code>.</p>
 <p>To disable the default filtering rules, set the <code>disableDefaultFilter</code> property to <code>true</code>.</p>
 <p>To show private methods, set the <code>includePrivateMembers</code> config to <code>true</code>. When enabled, internal only langauge keywords such as <code>private</code> or <code>internal</code> starts to appear in the declaration of all APIs, to accurately reflect API accessibility.</p>
 <p>There are two ways of customizing the API filters:</p>
@@ -218,7 +218,7 @@ invoke the <a href="../api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html"><co
 <ol>
 <li>Use docfx .NET API generation as a NuGet library:</li>
 </ol>
-<pre><code class="lang-xml">&lt;PackageReference Include=&quot;Microsoft.DocAsCode.Dotnet&quot; Version=&quot;2.62.0&quot; /&gt;
+<pre><code class="lang-xml">&lt;PackageReference Include=&quot;Docfx.Dotnet&quot; Version=&quot;2.62.0&quot; /&gt;
 </code></pre>
 <ol start="2">
 <li>Configure the filter options:</li>
@@ -234,7 +234,7 @@ invoke the <a href="../api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html"><co
 
 await DotnetApiCatalog.GenerateManagedReferenceYamlFiles(&quot;docfx.json&quot;, options);
 </code></pre>
-<p>The filter callbacks takes an <a href="https://learn.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol?view=roslyn-dotnet"><code>ISymbol</code></a> interface and produces an <a href="../api/Microsoft.Docascode.Dotnet.SymbolIncludeState.yml"><code>SymbolIncludeState</code></a> enum to choose between include the API, exclude the API or use the default filtering behavior.</p>
+<p>The filter callbacks takes an <a href="https://learn.microsoft.com/en-us/dotnet/api/microsoft.codeanalysis.isymbol?view=roslyn-dotnet"><code>ISymbol</code></a> interface and produces an <a href="../api/Docfx.Dotnet.SymbolIncludeState.html"><code>SymbolIncludeState</code></a> enum to choose between include the API, exclude the API or use the default filtering behavior.</p>
 <p>The callbacks are raised before applying the default rules but after processing type accessibility rules. Private types and members cannot be marked as include unless <code>includePrivateMembers</code> is true.</p>
 <p>Hiding the parent symbol also hides all of its child symbols, e.g.:</p>
 <ul>

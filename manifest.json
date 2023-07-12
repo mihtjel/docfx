@@ -28,220 +28,220 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.BuildOptions.yml",
+      "source_relative_path": "api/Docfx.BuildOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.BuildOptions.html"
+          "relative_path": "api/Docfx.BuildOptions.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.AdditionalNotes.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.AdditionalNotes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.AdditionalNotes.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.AdditionalNotes.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ApiParameter.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ApiParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ApiParameter.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.ApiParameter.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ArgumentInfo.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ArgumentInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ArgumentInfo.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.ArgumentInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.AttributeInfo.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.AttributeInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.AttributeInfo.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.AttributeInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ExceptionInfo.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ExceptionInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ExceptionInfo.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.ExceptionInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.ItemViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.ItemViewModel.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.ItemViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.LinkInfo.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.LinkInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.LinkInfo.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.LinkInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.LinkType.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.LinkType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.LinkType.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.LinkType.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.MemberType.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.MemberType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.MemberType.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.MemberType.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.NamedArgumentInfo.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.NamedArgumentInfo.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.NamedArgumentInfo.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.NamedArgumentInfo.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.PageViewModel.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.PageViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.PageViewModel.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.PageViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.SyntaxDetailViewModel.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.SyntaxDetailViewModel.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.SyntaxDetailViewModel.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.SyntaxLanguage.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.SyntaxLanguage.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.SyntaxLanguage.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.SyntaxLanguage.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.yml",
+      "source_relative_path": "api/Docfx.DataContracts.ManagedReference.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.DataContracts.ManagedReference.html"
+          "relative_path": "api/Docfx.DataContracts.ManagedReference.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.Docset.yml",
+      "source_relative_path": "api/Docfx.Docset.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.Docset.html"
+          "relative_path": "api/Docfx.Docset.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.yml",
+      "source_relative_path": "api/Docfx.Dotnet.DotnetApiCatalog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.html"
+          "relative_path": "api/Docfx.Dotnet.DotnetApiCatalog.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.Dotnet.DotnetApiOptions.yml",
+      "source_relative_path": "api/Docfx.Dotnet.DotnetApiOptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.Dotnet.DotnetApiOptions.html"
+          "relative_path": "api/Docfx.Dotnet.DotnetApiOptions.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.Dotnet.SymbolIncludeState.yml",
+      "source_relative_path": "api/Docfx.Dotnet.SymbolIncludeState.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.Dotnet.SymbolIncludeState.html"
+          "relative_path": "api/Docfx.Dotnet.SymbolIncludeState.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.Dotnet.yml",
+      "source_relative_path": "api/Docfx.Dotnet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.Dotnet.html"
+          "relative_path": "api/Docfx.Dotnet.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.MemberLayout.yml",
+      "source_relative_path": "api/Docfx.MemberLayout.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.MemberLayout.html"
+          "relative_path": "api/Docfx.MemberLayout.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.DocAsCode.yml",
+      "source_relative_path": "api/Docfx.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.DocAsCode.html"
+          "relative_path": "api/Docfx.html"
         }
       },
       "version": ""
@@ -310,9 +310,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "docs/dotnet-api-docs.md",
       "output": {

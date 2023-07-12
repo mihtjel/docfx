@@ -140,12 +140,12 @@ jobs:
 </code></pre>
 <h2 id="use-the-nuget-library">Use the NuGet Library</h2>
 <p>You can also use docfx as a NuGet library:</p>
-<pre><code class="lang-xml">&lt;PackageReference Include=&quot;Microsoft.DocAsCode.App&quot; Version=&quot;2.60.0&quot; /&gt;
+<pre><code class="lang-xml">&lt;PackageReference Include=&quot;Docfx.App&quot; Version=&quot;2.70.0&quot; /&gt;
 </code></pre>
 <p>Then build a docset using:</p>
-<pre><code class="lang-cs">await Microsoft.DocAsCode.Docset.Build(&quot;docfx.json&quot;);
+<pre><code class="lang-cs">await Docfx.Docset.Build(&quot;docfx.json&quot;);
 </code></pre>
-<p>See <a href="api/Microsoft.DocAsCode.html">API References</a> for additional APIs.</p>
+<p>See <a href="api/Docfx.html">API References</a> for additional APIs.</p>
 <h2 id="next-steps">Next Steps</h2>
 <ul>
 <li><a href="docs/markdown.html">Write Articles</a></li>

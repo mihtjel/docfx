@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class DotnetApiCatalog
+      <title>Class Docset
  | docfx </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class DotnetApiCatalog
+      <meta name="title" content="Class Docset
  | docfx ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/dotnet/docfx/new/main/apiSpec/new?filename=Microsoft_DocAsCode_Dotnet_DotnetApiCatalog.md&amp;value=---%0Auid%3A%20Microsoft.DocAsCode.Dotnet.DotnetApiCatalog%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/dotnet/docfx/new/main/apiSpec/new?filename=Docfx_Docset.md&amp;value=---%0Auid%3A%20Docfx.Docset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
   </head>
 
   <script type="module">
@@ -84,26 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Microsoft.DocAsCode.Dotnet.DotnetApiCatalog">
+        <article data-uid="Docfx.Docset">
 
 
 
-  <h1 id="Microsoft_DocAsCode_Dotnet_DotnetApiCatalog" data-uid="Microsoft.DocAsCode.Dotnet.DotnetApiCatalog" class="text-break">
-    Class DotnetApiCatalog
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/src/Microsoft.DocAsCode.Dotnet/DotnetApiCatalog.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Docfx_Docset" data-uid="Docfx.Docset" class="text-break">
+    Class Docset
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/src/Docfx.App/Docset.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Microsoft.html">Microsoft</a>.<a class="xref" href="Microsoft.DocAsCode.html">DocAsCode</a>.<a class="xref" href="Microsoft.DocAsCode.Dotnet.html">Dotnet</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Microsoft.DocAsCode.Dotnet.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Docfx.html">Docfx</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Docfx.App.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Provides access to a .NET API definitions and their associated documentation.</p>
+  <div class="markdown summary"><p>Provides access to a set of documentations
+and their associated configs, compilations and models.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class DotnetApiCatalog</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Docset</code></pre>
   </div>
 
 
@@ -113,7 +114,7 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">DotnetApiCatalog</span></div>
+      <div><span class="xref">Docset</span></div>
     </dd>
   </dl>
 
@@ -154,19 +155,19 @@
 </h2>
 
 
-  <a id="Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_" data-uid="Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles*"></a>
+  <a id="Docfx_Docset_Build_" data-uid="Docfx.Docset.Build*"></a>
 
-  <h3 id="Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_System_String_" data-uid="Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String)">
-  GenerateManagedReferenceYamlFiles(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/src/Microsoft.DocAsCode.Dotnet/DotnetApiCatalog.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Docfx_Docset_Build_System_String_" data-uid="Docfx.Docset.Build(System.String)">
+  Build(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/src/Docfx.App/Docset.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Generates metadata reference YAML files using docfx.json config.</p>
+  <div class="markdown level1 summary"><p>Builds a docset specified by docfx.json config.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task GenerateManagedReferenceYamlFiles(string configPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task Build(string configPath)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -193,19 +194,19 @@
 
 
 
-  <a id="Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_" data-uid="Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles*"></a>
+  <a id="Docfx_Docset_Build_" data-uid="Docfx.Docset.Build*"></a>
 
-  <h3 id="Microsoft_DocAsCode_Dotnet_DotnetApiCatalog_GenerateManagedReferenceYamlFiles_System_String_Microsoft_DocAsCode_Dotnet_DotnetApiOptions_" data-uid="Microsoft.DocAsCode.Dotnet.DotnetApiCatalog.GenerateManagedReferenceYamlFiles(System.String,Microsoft.DocAsCode.Dotnet.DotnetApiOptions)">
-  GenerateManagedReferenceYamlFiles(string, DotnetApiOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/src/Microsoft.DocAsCode.Dotnet/DotnetApiCatalog.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Docfx_Docset_Build_System_String_Docfx_BuildOptions_" data-uid="Docfx.Docset.Build(System.String,Docfx.BuildOptions)">
+  Build(string, BuildOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/dotnet/docfx/blob/main/src/Docfx.App/Docset.cs/#L31"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Generates metadata reference YAML files using docfx.json config.</p>
+  <div class="markdown level1 summary"><p>Builds a docset specified by docfx.json config.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task GenerateManagedReferenceYamlFiles(string configPath, DotnetApiOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task Build(string configPath, BuildOptions options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -213,8 +214,9 @@
     <dt><code>configPath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>The path to docfx.json config file.</p>
 </dd>
-    <dt><code>options</code> <a class="xref" href="Microsoft.DocAsCode.Dotnet.DotnetApiOptions.html">DotnetApiOptions</a></dt>
-    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="Docfx.BuildOptions.html">BuildOptions</a></dt>
+    <dd><p>The build options.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -238,7 +240,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/dotnet/docfx/blob/main/src/Microsoft.DocAsCode.Dotnet/DotnetApiCatalog.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/dotnet/docfx/blob/main/src/Docfx.App/Docset.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
         
